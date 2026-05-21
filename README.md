@@ -59,6 +59,9 @@ The database was designed using proper:
 - Many-to-many relationships
 - Referential integrity rules
 
+## Entity Relationship Diagram
+
+![ER Diagram](docs/figures/er_diagram.png)
 
 
 # Dataset Scale
