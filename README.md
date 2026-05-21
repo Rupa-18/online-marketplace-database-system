@@ -111,18 +111,37 @@ Collected metrics:
 
 The benchmarking results establish baseline performance for future optimization work in Project 2.
 
-
 # Repository Structure
 
+```text
 online-marketplace-database-system/
 │
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── LICENSE
+│
 ├── schema/
+│   └── marketplace_schema.sql
+│
 ├── data_generation/
+│   └── data_generation.ipynb
+│
 ├── queries/
+│   └── baseline_marketplace_queries.sql
+│
 ├── benchmarking/
+│   ├── benchmarking.ipynb
+│   └── benchmark_results.csv
+│
 ├── report/
+│   └── Ghosh_Rupa_1st_Project_Report.pdf
+│
 ├── docs/
+│   └── figures/
+│
 └── screenshots/
+```
 
 
 # How to Run
