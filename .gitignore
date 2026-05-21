@@ -1,0 +1,30 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual env
+venv/
+.venv/
+env/
+
+# secrets
+.env
+
+# vector db / generated runtime files
+chroma_db/
+outputs/
+*.log
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# large raw data if needed
+data/raw/*.zip
+
+*.docx
